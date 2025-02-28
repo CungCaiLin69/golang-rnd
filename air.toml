@@ -1,0 +1,20 @@
+# Air Configuration File
+
+# Root directory of the project
+root = "."
+
+# Temporary build directory
+tmp_dir = "tmp"
+
+# Files and directories to watch
+[build]
+include_ext = ["go", "tpl", "tmpl", "html"]
+exclude_dir = ["vendor", "node_modules", "tmp", "secret"]
+
+# Log settings
+[log]
+time = true
+
+# Command to run when files change
+[run]
+cmd = "go run main.go"

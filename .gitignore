@@ -1,3 +1,7 @@
 .env
 go.mod
 go.sum
+
+# folders
+secret/
+tmp/
